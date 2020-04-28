@@ -1,12 +1,12 @@
 ---
 dependencies:
   - name: rabbitmq
-    version: 6.18.1
-    repository: https://kubernetes-charts.storage.googleapis.com/
+    version: 6.25.5
+    repository: https://charts.bitnami.com/bitnami
     condition: rabbitmq.install
   - name: postgresql
-    version: 8.5.0
-    repository: https://kubernetes-charts.storage.googleapis.com/
+    version: 8.9.3
+    repository: https://charts.bitnami.com/bitnami
     condition: postgresql.install
   - name: memcached
     version: 3.2.2
